@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+    }
+    .box:nth-child(1) {
+      background-color: red;
+      z-index: 10;
+      left: 10px;
+      top: 10px;
+    }
+    .box:nth-child(2) {
+      background-color: green;
+      z-index: 5;
+      left: 50px;
+      top: 50px;
+    }
+    .box:nth-child(3) {
+      background-color: blue;
+      z-index: 1;
+      left: 100px;
+      top: 100px;
+    }
+    .contain {
+      height: 100px;
+      width: 400px;
+      border: solid black;
+      position: relative;
+    }
+  </style>
+  <body>
+    <h1>Lorem ipsum dolor amet</h1>
+    <div class="contain">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor amet</h1>
+  </body>
+</html>
