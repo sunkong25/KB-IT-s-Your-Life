@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border: 1px solid lightgray;
+        text-align: center;
+        color: white;
+        background: red;
+      }
+      #down:hover {
+        position: relative; /* 나 자신을 기준으로 움직인다. 원래 공간은 그대로 유지한다.*/
+        top: 20px;
+        left: 20px;
+        background-color: green;
+      }
+      #up:hover {
+        position: relative;
+        bottom: 20px;
+        right: 20px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>상대배치, relative</h3>
+    <hr />
+    <div>T</div>
+    <div id="down">h</div>
+    <div>a</div>
+    <div>n</div>
+    <div id="up">k</div>
+    <div>s</div>
+  </body>
+</html>
