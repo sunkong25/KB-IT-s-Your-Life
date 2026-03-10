@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //지역변수, 구역단위 { }
+      let a = 100;
+      a = 250;
+      console.log(a); //250
+      {
+        let a = 200;
+        console.log(a); //200
+        {
+          let a = 300;
+          console.log(a); //300
+        }
+        console.log(a); //200
+      }
+      console.log(a); //250
+    </script>
+  </body>
+</html>
