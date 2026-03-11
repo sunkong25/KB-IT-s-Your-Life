@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="fruits">
+      <p>Apple</p>
+      <p>Banana</p>
+      <p>Orange</p>
+    </div>
+    <script>
+      const fruits = Array.from(document.querySelectorAll('.fruits p'));
+      const fruitNames = fruits.map((fruit) => fruit.textContent);
+      console.log(fruitNames);
+    </script>
+  </body>
+</html>
