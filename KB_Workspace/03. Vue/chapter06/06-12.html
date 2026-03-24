@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col">
+            <!-- column 하나로 12개 묶어서 사용 -->
+            <div class="input-group">
+              <!-- input와 button을 하나로 묶어주는 것 -->
+              <input
+                type="text"
+                id="msg"
+                class="form-control"
+                name="msg"
+                placeholder="할일을 여기에 입력!"
+              />
+              <span class="btn btn-primary input-group-addon">추가</span>
+              <!-- input-group-addon으로 input과 하나로 묶어줌 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      let vm = Vue.createApp({
+        name: 'App',
+        data() {
+          return {};
+        },
+      }).mount('#app');
+    </script>
+  </body>
+</html>
