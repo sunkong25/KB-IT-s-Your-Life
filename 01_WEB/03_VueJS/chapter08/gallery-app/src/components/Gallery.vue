@@ -29,29 +29,13 @@ export default {
   methods: {
     changeImage(image) {
       let index = this.images.findIndex((item) => image === item);
-      image.clicked = !image.clicked;
-      this.images[index].clicked = !this.images[index].clicked;
+      this.images.forEach((img) => {
+        img.clicked = img.id === image.id;
+      });
+      // image.clicked = !image.clicked;
+      // this.images[index].clicked = !this.images[index].clicked;
       this.selectedImage = this.images[index];
     },
   },
 };
 </script>
-<style></style>
-
-<!-- 3. props, $emit 사용
-
-4. 현재 선택된 이미지는 Gallery.vue에서 관리한다.
-
-5. 이벤트 이름
-select
-change-image
-
-6. 이벤트 핸들러 메서드
-GalleryListItem.vue
-- handleClick()
-
-GalleryList.vue
-- selectImage()
-
-Gallery.vue
-- changeImage() -->
