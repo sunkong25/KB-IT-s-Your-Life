@@ -1,0 +1,28 @@
+.container {
+  border: 1px solid #000000;
+  display: flex; /*강제로 수축해서 모든 값을 한줄로 표현함*/
+  width: 500px;
+  background: yellow;
+}
+
+.item {
+  border: 1px solid black;
+  width: 400px;
+}
+
+.item1 {
+  background: red;
+}
+
+.item2 {
+  background: orange;
+}
+/* .item3 {
+  background: yellow;
+}
+.item4 {
+  background: green;
+}
+.item5 {
+  background: blue;
+} */
