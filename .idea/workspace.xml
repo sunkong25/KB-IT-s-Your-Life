@@ -2,16 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57fa0f1f-0bf4-4030-a7a4-4c2eb885e81b" name="변경" comment="feat: 04/14 강의 및 실습">
-      <change beforePath="$PROJECT_DIR$/.idea/fullstack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fullstack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Java/src/ch07/sec03/exam02/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Java/src/ch07/sec03/exam02/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Java/src/ch07/sec03/exam02/SmartPhoneExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch06/sec14/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch06/sec15/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch06/sec15/SingletonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch07/sec04/exam01/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch07/sec04/exam01/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-study/week04/session2/P1_1012_유기농배추.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-study/week04/session2/P2_2667_단지번호붙이기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-study/week04/session2/P3_2583_영역구하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-study/week04/session2/P4_10026_적록색약.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/알고리즘_스터디/session8/P1_1012_유기농배추.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/알고리즘_스터디/session8/P2_2667_단지번호붙이기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/알고리즘_스터디/session8/P3_2583_영역구하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/알고리즘_스터디/session8/P4_10026_적록색약.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Java/src/ch06/sec14/CarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/KB_Workspace/04. Java/study/src/ch06/sec14/CarExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm-study/week00/session1/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-study/week00/session1/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithm-study/week00/session1/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-study/week00/session1/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-study/week04/session2/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/git_project/git/all-about-me-20260318/.gitcommit-template.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +71,11 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/fullstack",
-    "애플리케이션.Main.executor": "Run"
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.P2_2667_단지번호붙이기.executor": "Run",
+    "애플리케이션.SingletonExample.executor": "Run",
+    "애플리케이션.SmartPhoneExample.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
